@@ -13,6 +13,9 @@
 		3D3E7360262B52A1002CD7C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E735E262B52A1002CD7C7 /* Main.storyboard */; };
 		3D3E7362262B52A3002CD7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E7361262B52A3002CD7C7 /* Assets.xcassets */; };
 		3D3E7365262B52A3002CD7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3E7363262B52A3002CD7C7 /* LaunchScreen.storyboard */; };
+		3D3E736E262B54CB002CD7C7 /* PurchaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E736D262B54CB002CD7C7 /* PurchaseScreen.swift */; };
+		3D3E7371262B5706002CD7C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E7370262B5706002CD7C7 /* User.swift */; };
+		3D3E7374262B5A34002CD7C7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E7373262B5A34002CD7C7 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3D3E7361262B52A3002CD7C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3E7364262B52A3002CD7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3E7366262B52A3002CD7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3E736D262B54CB002CD7C7 /* PurchaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseScreen.swift; sourceTree = "<group>"; };
+		3D3E7370262B5706002CD7C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D3E7373262B5A34002CD7C7 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		3D3E7357262B52A1002CD7C7 /* Pokemon Purchase */ = {
 			isa = PBXGroup;
 			children = (
+				3D3E735C262B52A1002CD7C7 /* ViewController.swift */,
+				3D3E7373262B5A34002CD7C7 /* Pokemon.swift */,
+				3D3E7370262B5706002CD7C7 /* User.swift */,
+				3D3E736D262B54CB002CD7C7 /* PurchaseScreen.swift */,
+				3D3E735E262B52A1002CD7C7 /* Main.storyboard */,
 				3D3E7358262B52A1002CD7C7 /* AppDelegate.swift */,
 				3D3E735A262B52A1002CD7C7 /* SceneDelegate.swift */,
-				3D3E735C262B52A1002CD7C7 /* ViewController.swift */,
-				3D3E735E262B52A1002CD7C7 /* Main.storyboard */,
 				3D3E7361262B52A3002CD7C7 /* Assets.xcassets */,
 				3D3E7363262B52A3002CD7C7 /* LaunchScreen.storyboard */,
 				3D3E7366262B52A3002CD7C7 /* Info.plist */,
@@ -139,7 +148,10 @@
 			files = (
 				3D3E735D262B52A1002CD7C7 /* ViewController.swift in Sources */,
 				3D3E7359262B52A1002CD7C7 /* AppDelegate.swift in Sources */,
+				3D3E736E262B54CB002CD7C7 /* PurchaseScreen.swift in Sources */,
+				3D3E7371262B5706002CD7C7 /* User.swift in Sources */,
 				3D3E735B262B52A1002CD7C7 /* SceneDelegate.swift in Sources */,
+				3D3E7374262B5A34002CD7C7 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
